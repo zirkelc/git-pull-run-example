@@ -1,0 +1,27 @@
+{
+  "name": "git-pull-run-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "git:reset": "git reset --hard HEAD~1",
+    "help": "npx git-pull-run --help",
+    "version": "npx git-pull-run --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zirkelc/git-pull-run-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zirkelc/git-pull-run-example/issues"
+  },
+  "homepage": "https://github.com/zirkelc/git-pull-run-example#readme",
+  "devDependencies": {
+    "git-pull-run": "^1.1.1-next.0",
+    "husky": "^8.0.1"
+  }
+}

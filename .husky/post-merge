@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx git-pull-run -p '(packages/*/package-lock.json)|(package-lock.json)' -c 'npm install'
